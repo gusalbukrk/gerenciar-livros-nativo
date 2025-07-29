@@ -1,0 +1,28 @@
+{
+  "name": "gerenciar-livros-nativo",
+  "version": "1.0.0",
+  "description": "gerenciar-livros usando apenas JS & CSS nativos",
+  "homepage": "https://github.com/gusalbukrk/gerenciar-livros-nativo#readme",
+  "bugs": {
+    "url": "https://github.com/gusalbukrk/gerenciar-livros-nativo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gusalbukrk/gerenciar-livros-nativo.git"
+  },
+  "license": "MIT",
+  "author": "gusalbukrk",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@sqlite.org/sqlite-wasm": "^3.50.3-build1"
+  },
+  "devDependencies": {
+    "vite": "^7.0.6"
+  }
+}
